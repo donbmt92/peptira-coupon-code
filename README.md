@@ -1,8 +1,8 @@
-# Peptira Discount Code 2026 [PEPTIDESAVE10] – Up to 10% Off
+# Peptira Coupon Code 2026 [PEPTIDESAVE10] – Historical Stack Up to 50% Off
 
 **Verification & Offer Tracker**
 
-Use promotional code `PEPTIDESAVE10` and check for up to 10% off eligible Peptira purchases. This publisher-reported offer was last observed on November 12, 2026; confirm eligibility and the final cart total before paying.
+Peptigator previously advertised a Labor Day stack with `PEPTIDESAVE10` as “up to 50% off.” That promotion expired on September 7, 2026. The current publisher-reported offer observed on November 12, 2026 is a selected-item BOGO plus an extra 10% where the code is accepted; confirm eligibility and the final cart total before paying.
 
 This repository provides an evidence-led dataset and Python toolkit for recording public Peptira promotions, detecting stale or expired records, and calculating sequential discounts without treating publisher claims as independent checkout proof.
 
