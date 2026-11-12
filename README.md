@@ -1,8 +1,10 @@
-# Peptira Coupon Codes: PEPTIDESAVE10
+# Peptira Discount Code 2026 [PEPTIDESAVE10] – Up to 10% Off
 
 **Verification & Offer Tracker**
 
-A small, evidence-led dataset and Python toolkit for recording public Peptira promotions, detecting stale or expired records, and calculating sequential discounts without treating publisher claims as independent checkout proof.
+Use promotional code `PEPTIDESAVE10` and check for up to 10% off eligible Peptira purchases. This publisher-reported offer was last observed on November 12, 2026; confirm eligibility and the final cart total before paying.
+
+This repository provides an evidence-led dataset and Python toolkit for recording public Peptira promotions, detecting stale or expired records, and calculating sequential discounts without treating publisher claims as independent checkout proof.
 
 This is an independent project. It is not affiliated with, endorsed by, or operated by Peptira.
 
