@@ -1,4 +1,6 @@
-# Peptira Coupon Verification & Offer Tracker
+# Peptira Coupon Codes
+
+**Verification & Offer Tracker**
 
 A small, evidence-led dataset and Python toolkit for recording public Peptira promotions, detecting stale or expired records, and calculating sequential discounts without treating publisher claims as independent checkout proof.
 
