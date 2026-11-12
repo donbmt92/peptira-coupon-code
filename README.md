@@ -1,4 +1,4 @@
-# Peptira Coupon Code 2026 [PEPTIDESAVE10] – Historical Stack Up to 50% Off
+# Peptira Coupon Code [PEPTIDESAVE10] – Historical Stack Up to 50% Off
 
 **Verification & Offer Tracker**
 
