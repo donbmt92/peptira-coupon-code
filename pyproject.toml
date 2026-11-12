@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "peptira-offer-tracker"
+version = "0.1.0"
+description = "Timestamped Peptira offer records, validation, and sequential discount calculations"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+dependencies = [
+  "jsonschema[format]>=4.23,<5",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.3,<10"]
+
+[project.scripts]
+peptira-discount = "discount_calculator:main"
+validate-peptira-offers = "validate_offers:main"
+
+[tool.setuptools]
+py-modules = ["discount_calculator", "validate_offers"]
+package-dir = { "" = "src" }
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+

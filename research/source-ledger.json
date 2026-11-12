@@ -1,0 +1,87 @@
+{
+  "research_date": "2026-11-12",
+  "timezone_context": "Asia/Saigon",
+  "sources": [
+    {
+      "id": "live-peptigator-peptira",
+      "url": "https://peptigator.com/coupon/peptira",
+      "retrieved_at": "2026-11-12T11:14:29Z",
+      "retrieval_method": "HTTP 200 live HTML response, normalized to visible text",
+      "classification": "publisher page",
+      "evidence": [
+        "Veterans Day BOGO + Extra 10% with PEPTIDESAVE10 - Buy one eligible item and receive a matching item free on Peptira's selected offers from November 11 through November 13. Apply PEPTIDESAVE10 at checkout for another 10% off where accepted, then confirm the final cart total.",
+        "Free U.S. Shipping Over $250 - Qualifying orders of $250 or more receive free shipping automatically at checkout.",
+        "Third-Party Batch Documentation - Peptira publishes batch-specific quality and identity reports so shoppers can review the available documentation before ordering.",
+        "The registry displayed PEPTIDESAVE10 / BOGO + 10% / Active verified / Nov 12, 2026.",
+        "The FAQ stated that Peptigator surfaces codes checked against Peptira's checkout."
+      ],
+      "limitations": [
+        "This repository did not enter checkout, make a purchase, authenticate, or independently verify the code.",
+        "The BOGO-eligible items, exact end time, and end timezone were not stated in visible text.",
+        "The page's uses and verification counts were not treated as independent evidence."
+      ]
+    },
+    {
+      "id": "search-indexed-peptigator-snapshot",
+      "url": "https://peptigator.com/coupon/peptira",
+      "retrieved_at": "2026-11-12T10:59:00Z",
+      "retrieval_method": "external search index result",
+      "classification": "stale indexed snapshot",
+      "evidence": [
+        "The indexed result described a 35% automatic catalog sale, 10% code PEPTIDESAVE10, and 5% ACH discount, ending September 7 at midnight MST.",
+        "The indexed result called the combination up to 50% off and verified September 5, 2026."
+      ],
+      "limitations": [
+        "The offer was absent from the current live page and had expired.",
+        "Search snippets are not a substitute for a contemporaneous checkout test."
+      ]
+    },
+    {
+      "id": "google-serp-coupon",
+      "url": "https://www.google.com/search?q=peptira+coupon+code",
+      "retrieved_at": "2026-11-12T11:05:00Z",
+      "retrieval_method": "read-only browser inspection from Vietnam; Google UI language Vietnamese",
+      "classification": "search results",
+      "evidence": [
+        "Visible results were dominated by coupon and affiliate pages such as SimplyCodes and Peptide Dosing Protocols.",
+        "The first visible organic results did not show a GitHub repository.",
+        "Google displayed conflicting codes and discounts, including SAVE10, HARLAN, and several publisher-specific codes."
+      ],
+      "limitations": [
+        "Results vary by location, language, device, time, and personalization.",
+        "No ranking or search-volume claim is made."
+      ]
+    },
+    {
+      "id": "google-serp-history",
+      "url": "https://www.google.com/search?q=peptira+discount+history",
+      "retrieved_at": "2026-11-12T11:06:00Z",
+      "retrieval_method": "read-only browser inspection from Vietnam; Google UI language Vietnamese",
+      "classification": "search results",
+      "evidence": [
+        "Results still favored coupon pages; there was no clear first-page repository-style historical dataset.",
+        "Results contained inconsistent historical claims and unrelated or low-quality pages.",
+        "This suggests a narrow information gap for evidence-led history, but it does not prove demand."
+      ],
+      "limitations": [
+        "Google AI Overview content was treated as a lead, not a reliable source of offer facts.",
+        "No keyword tool was used."
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "current offer",
+      "detail": "The live page showed a November 11-13 BOGO plus 10% offer, while the search index retained an expired September Labor Day stack."
+    },
+    {
+      "topic": "stack arithmetic",
+      "detail": "A sequential 35%, 10%, then 5% reduction is 44.425%, not 50%; the old indexed headline used an additive framing."
+    },
+    {
+      "topic": "verification",
+      "detail": "Peptigator reports checkout verification, but this repository has not independently confirmed any offer at checkout."
+    }
+  ]
+}
+

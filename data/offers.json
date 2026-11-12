@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0.0",
+  "merchant": "Peptira",
+  "retrieved_at": "2026-11-12T11:14:29Z",
+  "offers": [
+    {
+      "id": "peptira-veterans-day-2026-bogo-extra-10",
+      "title": "Veterans Day BOGO plus extra 10%",
+      "offer_type": "composite",
+      "status": "active",
+      "code": "PEPTIDESAVE10",
+      "discount": {
+        "kind": "composite",
+        "value": null,
+        "currency": null,
+        "components": [
+          { "kind": "bogo", "value": null, "description": "Matching item free on selected eligible offers" },
+          { "kind": "percent", "value": 10, "description": "Extra 10% where the code is accepted" }
+        ],
+        "calculation_note": "A single effective percentage cannot be calculated without item prices and eligibility details."
+      },
+      "conditions": {
+        "min_subtotal": null,
+        "eligible_scope": "Selected items only; the source does not enumerate them.",
+        "payment_methods": [],
+        "regions": [],
+        "stacking": "publisher_reported",
+        "notes": [
+          "Source says the promotion runs November 11 through November 13, 2026.",
+          "No ending time or timezone is stated.",
+          "Confirm the final cart total before payment."
+        ]
+      },
+      "observation": {
+        "first_seen_at": "2026-11-12T11:02:58Z",
+        "last_seen_at": "2026-11-12T11:14:29Z",
+        "expires_at": null,
+        "expiration_text": "November 11 through November 13, 2026; exact cutoff and timezone not stated",
+        "stale_after_days": 7
+      },
+      "verification": {
+        "level": "publisher_reported",
+        "publisher_claim": "Peptigator labels the offer Verified and says its codes are checked against Peptira's checkout.",
+        "publisher_verified_at": "2026-11-12T00:00:00Z",
+        "independently_checkout_verified": false
+      },
+      "sources": [
+        {
+          "url": "https://peptigator.com/coupon/peptira",
+          "retrieved_at": "2026-11-12T11:14:29Z",
+          "evidence": "Veterans Day BOGO + Extra 10% with PEPTIDESAVE10 - Buy one eligible item and receive a matching item free on Peptira's selected offers from November 11 through November 13. Apply PEPTIDESAVE10 at checkout for another 10% off where accepted, then confirm the final cart total."
+        }
+      ],
+      "conflicts": [
+        "The page's registry calls the composite offer active and verified, but no independent checkout test was performed for this repository.",
+        "The page does not identify eligible SKUs, cutoff time, or timezone."
+      ]
+    },
+    {
+      "id": "peptira-free-us-shipping-over-250-2026-11",
+      "title": "Free U.S. shipping over $250",
+      "offer_type": "shipping",
+      "status": "active",
+      "code": null,
+      "discount": {
+        "kind": "shipping",
+        "value": null,
+        "currency": "USD",
+        "components": [],
+        "calculation_note": "Shipping savings cannot be calculated because the regular shipping charge is not stated."
+      },
+      "conditions": {
+        "min_subtotal": 250,
+        "eligible_scope": "Qualifying U.S. orders",
+        "payment_methods": [],
+        "regions": ["US"],
+        "stacking": "not_applicable",
+        "notes": ["Source says qualifying orders receive the benefit automatically at checkout."]
+      },
+      "observation": {
+        "first_seen_at": "2026-11-12T11:02:58Z",
+        "last_seen_at": "2026-11-12T11:14:29Z",
+        "expires_at": null,
+        "expiration_text": null,
+        "stale_after_days": 30
+      },
+      "verification": {
+        "level": "publisher_reported",
+        "publisher_claim": "Peptigator labels the shipping deal active verified.",
+        "publisher_verified_at": "2026-11-12T00:00:00Z",
+        "independently_checkout_verified": false
+      },
+      "sources": [
+        {
+          "url": "https://peptigator.com/coupon/peptira",
+          "retrieved_at": "2026-11-12T11:14:29Z",
+          "evidence": "Free U.S. Shipping Over $250 - Qualifying orders of $250 or more receive free shipping automatically at checkout. Orders placed before 12:00 PM Mountain Time may dispatch the same day."
+        }
+      ],
+      "conflicts": ["No independent checkout test was performed; the dispatch statement is not a delivery guarantee."]
+    },
+    {
+      "id": "peptira-batch-documentation-2026-11",
+      "title": "Third-party batch documentation",
+      "offer_type": "informational",
+      "status": "active",
+      "code": null,
+      "discount": {
+        "kind": "informational",
+        "value": null,
+        "currency": null,
+        "components": [],
+        "calculation_note": "This is a source-listed informational benefit, not a price discount."
+      },
+      "conditions": {
+        "min_subtotal": null,
+        "eligible_scope": "Available batch-specific quality and identity reports",
+        "payment_methods": [],
+        "regions": [],
+        "stacking": "not_applicable",
+        "notes": ["Document availability does not establish chain of custody or product quality."]
+      },
+      "observation": {
+        "first_seen_at": "2026-11-12T11:02:58Z",
+        "last_seen_at": "2026-11-12T11:14:29Z",
+        "expires_at": null,
+        "expiration_text": null,
+        "stale_after_days": 30
+      },
+      "verification": {
+        "level": "publisher_reported",
+        "publisher_claim": "Peptigator labels this listing active verified.",
+        "publisher_verified_at": "2026-11-12T00:00:00Z",
+        "independently_checkout_verified": false
+      },
+      "sources": [
+        {
+          "url": "https://peptigator.com/coupon/peptira",
+          "retrieved_at": "2026-11-12T11:14:29Z",
+          "evidence": "Third-Party Batch Documentation - Peptira publishes batch-specific quality and identity reports so shoppers can review the available documentation before ordering."
+        }
+      ],
+      "conflicts": ["The source presents this in the offer registry, but it is not a monetary promotion."]
+    },
+    {
+      "id": "peptira-labor-day-2026-claimed-50-stack",
+      "title": "Labor Day catalog, code, and ACH stack",
+      "offer_type": "composite",
+      "status": "expired",
+      "code": "PEPTIDESAVE10",
+      "discount": {
+        "kind": "composite",
+        "value": 44.425,
+        "currency": null,
+        "components": [
+          { "kind": "sale", "value": 35, "description": "Automatic catalog markdown" },
+          { "kind": "percent", "value": 10, "description": "Coupon code discount" },
+          { "kind": "percent", "value": 5, "description": "ACH payment discount" }
+        ],
+        "calculation_note": "If all three percentages were sequential, the effective reduction would be 1 - (0.65 × 0.90 × 0.95) = 44.425%, not 50%. The source described it as up to 50%."
+      },
+      "conditions": {
+        "min_subtotal": null,
+        "eligible_scope": "Source described the base sale as catalog-wide; eligibility details were not preserved in the indexed result.",
+        "payment_methods": ["ACH"],
+        "regions": [],
+        "stacking": "publisher_reported",
+        "notes": ["Historical observation retained to document a stale indexed result and arithmetic ambiguity."]
+      },
+      "observation": {
+        "first_seen_at": "2026-09-05T00:00:00Z",
+        "last_seen_at": "2026-09-05T00:00:00Z",
+        "expires_at": "2026-09-08T06:00:00Z",
+        "expiration_text": "Ends Monday, September 7 at midnight MST",
+        "stale_after_days": 7
+      },
+      "verification": {
+        "level": "publisher_reported",
+        "publisher_claim": "Search-indexed Peptigator content labeled the stack verified on September 5, 2026.",
+        "publisher_verified_at": "2026-09-05T00:00:00Z",
+        "independently_checkout_verified": false
+      },
+      "sources": [
+        {
+          "url": "https://peptigator.com/coupon/peptira",
+          "retrieved_at": "2026-11-12T10:59:00Z",
+          "evidence": "Search-indexed snapshot: Peptira takes 35% off the entire catalog automatically, PEPTIDESAVE10 adds another 10% at checkout, and ACH payment adds 5% more. Ends Monday, September 7 at midnight MST."
+        }
+      ],
+      "conflicts": [
+        "The live page no longer displays this promotion, while a stale search-indexed snapshot still did on November 12, 2026.",
+        "The claimed 50% headline does not match a sequential calculation of the three stated percentages."
+      ]
+    }
+  ]
+}
+
