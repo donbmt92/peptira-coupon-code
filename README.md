@@ -1,4 +1,4 @@
-# Peptira Coupon Codes
+# Peptira Coupon Codes: PEPTIDESAVE10
 
 **Verification & Offer Tracker**
 
